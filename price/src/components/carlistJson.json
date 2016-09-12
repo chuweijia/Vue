@@ -1,0 +1,30 @@
+{
+        "pbid": "17",// 品牌Id  【传参】pbid    
+        "bid": "163",
+        "pserid": "150",//车系Id （品牌 > 多个车系）
+        "name": "思域", //车系名称
+        "serid": "7427",
+        "maxprice": "16.99",
+        "minprice": "12.99",//价格区间  【传参】price
+        "isopen": "1",
+        "is_conceptcar": "0",
+        "c_isopen": "0",
+        "isstop": "0",
+        "issale": "0",
+        "opentime": "2016-04-12",
+        "type2": "3",//级别?? 【传参】type 
+        "is_show": "0",
+        "status": "0",
+        "typeyear": "2016",
+        "clubid": "1740",
+        "clubname": "新思域论坛",
+        "price_msg": "12.99-16.99万",//指导价
+        "price_style": "1",
+        "status_order": "1",
+        "first_photo": "http://img1.xcarimg.com/b163/s7427/20160712143127701071854532499.jpg",//引导图
+        "dealer_price": "8.44~17.29"//经销商报价
+        //askurl    询价地址  没给..
+
+        //【传参】cityid 
+        //【传参】page   页数
+}

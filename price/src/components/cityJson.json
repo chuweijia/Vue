@@ -1,0 +1,2566 @@
+[
+    {
+        "id": "1", //城市或省份id  【传参】cityid ??
+        "letter": "B",//首字母
+        "text": "北京市",//城市或省份名称
+        "state": "closed",//???
+        "children": [ //省份下的子城市
+            {
+                "id": "475",
+                "text": "北京市",
+                "letter": "B",
+                "domain": "bj"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "letter": "S",
+        "text": "上海市",
+        "state": "closed",
+        "children": [
+            {
+                "id": "507",
+                "text": "上海市",
+                "letter": "S",
+                "domain": "sh"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "letter": "T",
+        "text": "天津市",
+        "state": "closed",
+        "children": [
+            {
+                "id": "484",
+                "text": "天津市",
+                "letter": "T",
+                "domain": "tianjin"
+            }
+        ]
+    },
+    {
+        "id": "4",
+        "letter": "C",
+        "text": "重庆市",
+        "state": "closed",
+        "children": [
+            {
+                "id": "539",
+                "text": "重庆市",
+                "letter": "C",
+                "domain": "chongqing"
+            }
+        ]
+    },
+    {
+        "id": "5",
+        "letter": "H",
+        "text": "黑龙江省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "102",
+                "text": "哈尔滨市",
+                "letter": "H",
+                "domain": "haerbin"
+            },
+            {
+                "id": "103",
+                "text": "齐齐哈尔市",
+                "letter": "Q",
+                "domain": "qiqihaer"
+            },
+            {
+                "id": "105",
+                "text": "大庆市",
+                "letter": "D",
+                "domain": "daqing"
+            },
+            {
+                "id": "109",
+                "text": "佳木斯市",
+                "letter": "J",
+                "domain": "jiamusi"
+            },
+            {
+                "id": "104",
+                "text": "鸡西市",
+                "letter": "J",
+                "domain": "jixi"
+            },
+            {
+                "id": "110",
+                "text": "牡丹江市",
+                "letter": "M",
+                "domain": "mudanjiang"
+            },
+            {
+                "id": "113",
+                "text": "绥化市",
+                "letter": "S",
+                "domain": "suihua"
+            },
+            {
+                "id": "112",
+                "text": "黑河市",
+                "letter": "H",
+                "domain": "heihe"
+            },
+            {
+                "id": "107",
+                "text": "鹤岗市",
+                "letter": "H",
+                "domain": "hegang"
+            },
+            {
+                "id": "106",
+                "text": "双鸭山市",
+                "letter": "S",
+                "domain": "shuangyashan"
+            },
+            {
+                "id": "108",
+                "text": "伊春市",
+                "letter": "Y",
+                "domain": "hljyichun"
+            },
+            {
+                "id": "111",
+                "text": "七台河市",
+                "letter": "Q",
+                "domain": "qitaihe"
+            },
+            {
+                "id": "120",
+                "text": "铁力市",
+                "letter": "T",
+                "domain": "tieli"
+            },
+            {
+                "id": "122",
+                "text": "尚志市",
+                "letter": "S",
+                "domain": "shangzhi"
+            },
+            {
+                "id": "587",
+                "text": "大兴安岭市",
+                "letter": "D",
+                "domain": "daxinganling"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "letter": "J",
+        "text": "吉林省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "85",
+                "text": "长春市",
+                "letter": "C",
+                "domain": "changchun"
+            },
+            {
+                "id": "588",
+                "text": "延边市",
+                "letter": "Y",
+                "domain": "yanbian"
+            },
+            {
+                "id": "677",
+                "text": "公主岭市",
+                "letter": "G",
+                "domain": "gongzhuling"
+            },
+            {
+                "id": "676",
+                "text": "梅河口市",
+                "letter": "M",
+                "domain": "meihekou"
+            },
+            {
+                "id": "86",
+                "text": "吉林市",
+                "letter": "J",
+                "domain": "jilin"
+            },
+            {
+                "id": "92",
+                "text": "白城市",
+                "letter": "B",
+                "domain": "baicheng"
+            },
+            {
+                "id": "91",
+                "text": "松原市",
+                "letter": "S",
+                "domain": "songyuan"
+            },
+            {
+                "id": "87",
+                "text": "四平市",
+                "letter": "S",
+                "domain": "siping"
+            },
+            {
+                "id": "89",
+                "text": "通化市",
+                "letter": "T",
+                "domain": "tonghua"
+            },
+            {
+                "id": "90",
+                "text": "白山市",
+                "letter": "B",
+                "domain": "baishan"
+            },
+            {
+                "id": "88",
+                "text": "辽源市",
+                "letter": "L",
+                "domain": "liaoyuan"
+            },
+            {
+                "id": "93",
+                "text": "延吉市",
+                "letter": "Y",
+                "domain": "yanji"
+            }
+        ]
+    },
+    {
+        "id": "6",
+        "letter": "L",
+        "text": "辽宁省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "63",
+                "text": "沈阳市",
+                "letter": "S",
+                "domain": "shenyang"
+            },
+            {
+                "id": "64",
+                "text": "大连市",
+                "letter": "D",
+                "domain": "dalian"
+            },
+            {
+                "id": "65",
+                "text": "鞍山市",
+                "letter": "A",
+                "domain": "anshan"
+            },
+            {
+                "id": "66",
+                "text": "抚顺市",
+                "letter": "F",
+                "domain": "fushun"
+            },
+            {
+                "id": "69",
+                "text": "锦州市",
+                "letter": "J",
+                "domain": "jinzhou"
+            },
+            {
+                "id": "71",
+                "text": "营口市",
+                "letter": "Y",
+                "domain": "yingkou"
+            },
+            {
+                "id": "70",
+                "text": "葫芦岛市",
+                "letter": "H",
+                "domain": "huludao"
+            },
+            {
+                "id": "67",
+                "text": "本溪市",
+                "letter": "B",
+                "domain": "benxi"
+            },
+            {
+                "id": "75",
+                "text": "朝阳市",
+                "letter": "C",
+                "domain": "chaoyang"
+            },
+            {
+                "id": "72",
+                "text": "阜新市",
+                "letter": "F",
+                "domain": "fuxin"
+            },
+            {
+                "id": "73",
+                "text": "辽阳市",
+                "letter": "L",
+                "domain": "liaoyang"
+            },
+            {
+                "id": "74",
+                "text": "铁岭市",
+                "letter": "T",
+                "domain": "tieling"
+            },
+            {
+                "id": "76",
+                "text": "盘锦市",
+                "letter": "P",
+                "domain": "panjin"
+            },
+            {
+                "id": "68",
+                "text": "丹东市",
+                "letter": "D",
+                "domain": "dandong"
+            }
+        ]
+    },
+    {
+        "id": "9",
+        "letter": "N",
+        "text": "内蒙古",
+        "state": "closed",
+        "children": [
+            {
+                "id": "48",
+                "text": "呼和浩特市",
+                "letter": "H",
+                "domain": "huhehaote"
+            },
+            {
+                "id": "594",
+                "text": "阿拉善市",
+                "letter": "A",
+                "domain": "alashan"
+            },
+            {
+                "id": "680",
+                "text": "兴安市",
+                "letter": "X",
+                "domain": "xingan"
+            },
+            {
+                "id": "585",
+                "text": "鄂尔多斯市",
+                "letter": "E",
+                "domain": "eerduosi"
+            },
+            {
+                "id": "49",
+                "text": "包头市",
+                "letter": "B",
+                "domain": "baotou"
+            },
+            {
+                "id": "51",
+                "text": "赤峰市",
+                "letter": "C",
+                "domain": "chifeng"
+            },
+            {
+                "id": "540",
+                "text": "通辽市",
+                "letter": "T",
+                "domain": "tongliao"
+            },
+            {
+                "id": "50",
+                "text": "乌海市",
+                "letter": "W",
+                "domain": "wuhai"
+            },
+            {
+                "id": "589",
+                "text": "呼伦贝尔市",
+                "letter": "H",
+                "domain": "hulunbeier"
+            },
+            {
+                "id": "590",
+                "text": "巴彦淖尔市",
+                "letter": "B",
+                "domain": "bayannaoer"
+            },
+            {
+                "id": "591",
+                "text": "乌兰察布市",
+                "letter": "W",
+                "domain": "wulanchabu"
+            },
+            {
+                "id": "593",
+                "text": "锡林郭勒市",
+                "letter": "X",
+                "domain": "xilinguole"
+            },
+            {
+                "id": "592",
+                "text": "乌兰浩特市",
+                "letter": "W",
+                "domain": "wulanhaote"
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "letter": "X",
+        "text": "新疆省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "462",
+                "text": "乌鲁木齐市",
+                "letter": "W",
+                "domain": "wulumuqi"
+            },
+            {
+                "id": "473",
+                "text": "塔城市",
+                "letter": "T",
+                "domain": "tacheng"
+            },
+            {
+                "id": "603",
+                "text": "巴音郭楞市",
+                "letter": "B",
+                "domain": "bayinguoleng"
+            },
+            {
+                "id": "604",
+                "text": "克孜勒苏市",
+                "letter": "K",
+                "domain": "kezilesu"
+            },
+            {
+                "id": "687",
+                "text": "昆玉市",
+                "letter": "K",
+                "domain": "kunyu"
+            },
+            {
+                "id": "686",
+                "text": "可克达拉市",
+                "letter": "K",
+                "domain": "keladala"
+            },
+            {
+                "id": "685",
+                "text": "双河市",
+                "letter": "S",
+                "domain": "shuanghe"
+            },
+            {
+                "id": "684",
+                "text": "铁门关市",
+                "letter": "T",
+                "domain": "tiemenguan"
+            },
+            {
+                "id": "683",
+                "text": "北屯市",
+                "letter": "B",
+                "domain": "beitun"
+            },
+            {
+                "id": "682",
+                "text": "图木舒克市",
+                "letter": "T",
+                "domain": "tumushuke"
+            },
+            {
+                "id": "681",
+                "text": "阿拉尔市",
+                "letter": "A",
+                "domain": "alaer"
+            },
+            {
+                "id": "463",
+                "text": "克拉玛依市",
+                "letter": "K",
+                "domain": "kelamayi"
+            },
+            {
+                "id": "466",
+                "text": "喀什市",
+                "letter": "K",
+                "domain": "kashi"
+            },
+            {
+                "id": "470",
+                "text": "阿克苏市",
+                "letter": "A",
+                "domain": "aqsu"
+            },
+            {
+                "id": "467",
+                "text": "哈密市",
+                "letter": "H",
+                "domain": "hami"
+            },
+            {
+                "id": "465",
+                "text": "伊宁市",
+                "letter": "Y",
+                "domain": "yining"
+            },
+            {
+                "id": "674",
+                "text": "阜康市",
+                "letter": "F",
+                "domain": "fukang"
+            },
+            {
+                "id": "675",
+                "text": "五家渠市",
+                "letter": "W",
+                "domain": "wujiaqu"
+            },
+            {
+                "id": "606",
+                "text": "博尔塔拉市",
+                "letter": "B",
+                "domain": "boertala"
+            },
+            {
+                "id": "464",
+                "text": "石河子市",
+                "letter": "S",
+                "domain": "shihezi"
+            },
+            {
+                "id": "471",
+                "text": "和田市",
+                "letter": "H",
+                "domain": "hetian"
+            },
+            {
+                "id": "472",
+                "text": "吐鲁番市",
+                "letter": "T",
+                "domain": "tulufan"
+            },
+            {
+                "id": "469",
+                "text": "昌吉市",
+                "letter": "C",
+                "domain": "changji"
+            },
+            {
+                "id": "586",
+                "text": "库尔勒市",
+                "letter": "K",
+                "domain": "kuerle"
+            },
+            {
+                "id": "605",
+                "text": "阿勒泰市",
+                "letter": "A",
+                "domain": "aletai"
+            },
+            {
+                "id": "673",
+                "text": "伊犁市",
+                "letter": "Y",
+                "domain": "yili"
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "letter": "G",
+        "text": "甘肃省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "445",
+                "text": "兰州市",
+                "letter": "L",
+                "domain": "lanzhou"
+            },
+            {
+                "id": "597",
+                "text": "甘南市",
+                "letter": "G",
+                "domain": "gannan"
+            },
+            {
+                "id": "446",
+                "text": "嘉峪关市",
+                "letter": "J",
+                "domain": "jiayuguan"
+            },
+            {
+                "id": "454",
+                "text": "酒泉市",
+                "letter": "J",
+                "domain": "jiuquan"
+            },
+            {
+                "id": "448",
+                "text": "白银市",
+                "letter": "B",
+                "domain": "baiyin"
+            },
+            {
+                "id": "570",
+                "text": "陇南市",
+                "letter": "L",
+                "domain": "longnan"
+            },
+            {
+                "id": "451",
+                "text": "临夏市",
+                "letter": "L",
+                "domain": "linxia"
+            },
+            {
+                "id": "598",
+                "text": "定西市",
+                "letter": "D",
+                "domain": "dingxi"
+            },
+            {
+                "id": "449",
+                "text": "天水市",
+                "letter": "T",
+                "domain": "tianshui"
+            },
+            {
+                "id": "453",
+                "text": "张掖市",
+                "letter": "Z",
+                "domain": "zhangye"
+            },
+            {
+                "id": "452",
+                "text": "武威市",
+                "letter": "W",
+                "domain": "wuwei"
+            },
+            {
+                "id": "599",
+                "text": "庆阳市",
+                "letter": "Q",
+                "domain": "qingyang"
+            },
+            {
+                "id": "450",
+                "text": "平凉市",
+                "letter": "P",
+                "domain": "pingliang"
+            },
+            {
+                "id": "447",
+                "text": "金昌市",
+                "letter": "J",
+                "domain": "jinchang"
+            }
+        ]
+    },
+    {
+        "id": "13",
+        "letter": "N",
+        "text": "宁夏省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "459",
+                "text": "银川市",
+                "letter": "Y",
+                "domain": "yinchuan"
+            },
+            {
+                "id": "602",
+                "text": "中卫市",
+                "letter": "Z",
+                "domain": "zhongwei"
+            },
+            {
+                "id": "460",
+                "text": "石嘴山市",
+                "letter": "S",
+                "domain": "shizuishan"
+            },
+            {
+                "id": "601",
+                "text": "固原市",
+                "letter": "G",
+                "domain": "guyuan"
+            },
+            {
+                "id": "600",
+                "text": "吴忠市",
+                "letter": "W",
+                "domain": "wuzhong"
+            }
+        ]
+    },
+    {
+        "id": "11",
+        "letter": "S",
+        "text": "山西省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "33",
+                "text": "太原市",
+                "letter": "T",
+                "domain": "taiyuan"
+            },
+            {
+                "id": "34",
+                "text": "大同市",
+                "letter": "D",
+                "domain": "datong"
+            },
+            {
+                "id": "37",
+                "text": "晋城市",
+                "letter": "J",
+                "domain": "jincheng"
+            },
+            {
+                "id": "569",
+                "text": "晋中市",
+                "letter": "J",
+                "domain": "jinzhong"
+            },
+            {
+                "id": "40",
+                "text": "临汾市",
+                "letter": "L",
+                "domain": "linfen"
+            },
+            {
+                "id": "36",
+                "text": "长治市",
+                "letter": "C",
+                "domain": "changzhi"
+            },
+            {
+                "id": "42",
+                "text": "运城市",
+                "letter": "Y",
+                "domain": "yuncheng"
+            },
+            {
+                "id": "35",
+                "text": "阳泉市",
+                "letter": "Y",
+                "domain": "yangquan"
+            },
+            {
+                "id": "38",
+                "text": "朔州市",
+                "letter": "S",
+                "domain": "shuozhou"
+            },
+            {
+                "id": "596",
+                "text": "吕梁市",
+                "letter": "L",
+                "domain": "lvliang"
+            },
+            {
+                "id": "43",
+                "text": "忻州市",
+                "letter": "X",
+                "domain": "xinzhou"
+            }
+        ]
+    },
+    {
+        "id": "10",
+        "letter": "S",
+        "text": "陕西省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "433",
+                "text": "西安市",
+                "letter": "X",
+                "domain": "xian"
+            },
+            {
+                "id": "435",
+                "text": "咸阳市",
+                "letter": "X",
+                "domain": "xianyang"
+            },
+            {
+                "id": "437",
+                "text": "渭南市",
+                "letter": "W",
+                "domain": "weinan"
+            },
+            {
+                "id": "440",
+                "text": "榆林市",
+                "letter": "Y",
+                "domain": "yulin"
+            },
+            {
+                "id": "438",
+                "text": "延安市",
+                "letter": "Y",
+                "domain": "yanan"
+            },
+            {
+                "id": "434",
+                "text": "宝鸡市",
+                "letter": "B",
+                "domain": "baoji"
+            },
+            {
+                "id": "439",
+                "text": "汉中市",
+                "letter": "H",
+                "domain": "hanzhong"
+            },
+            {
+                "id": "441",
+                "text": "商洛市",
+                "letter": "S",
+                "domain": "shangluo"
+            },
+            {
+                "id": "595",
+                "text": "安康市",
+                "letter": "A",
+                "domain": "ankang"
+            },
+            {
+                "id": "436",
+                "text": "铜川市",
+                "letter": "T",
+                "domain": "tongchuan"
+            }
+        ]
+    },
+    {
+        "id": "22",
+        "letter": "H",
+        "text": "河南省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "260",
+                "text": "郑州市",
+                "letter": "Z",
+                "domain": "zhengzhou"
+            },
+            {
+                "id": "262",
+                "text": "洛阳市",
+                "letter": "L",
+                "domain": "luoyang"
+            },
+            {
+                "id": "266",
+                "text": "新乡市",
+                "letter": "X",
+                "domain": "xinxiang"
+            },
+            {
+                "id": "267",
+                "text": "安阳市",
+                "letter": "A",
+                "domain": "anyang"
+            },
+            {
+                "id": "269",
+                "text": "许昌市",
+                "letter": "X",
+                "domain": "xuchang"
+            },
+            {
+                "id": "272",
+                "text": "南阳市",
+                "letter": "N",
+                "domain": "nanyang"
+            },
+            {
+                "id": "264",
+                "text": "焦作市",
+                "letter": "J",
+                "domain": "jiaozuo"
+            },
+            {
+                "id": "268",
+                "text": "濮阳市",
+                "letter": "P",
+                "domain": "puyang"
+            },
+            {
+                "id": "263",
+                "text": "平顶山市",
+                "letter": "P",
+                "domain": "pingdingshan"
+            },
+            {
+                "id": "275",
+                "text": "周口市",
+                "letter": "Z",
+                "domain": "zhoukou"
+            },
+            {
+                "id": "274",
+                "text": "信阳市",
+                "letter": "X",
+                "domain": "xinyang"
+            },
+            {
+                "id": "261",
+                "text": "开封市",
+                "letter": "K",
+                "domain": "kaifeng"
+            },
+            {
+                "id": "265",
+                "text": "鹤壁市",
+                "letter": "H",
+                "domain": "hebi"
+            },
+            {
+                "id": "276",
+                "text": "驻马店市",
+                "letter": "Z",
+                "domain": "zhumadian"
+            },
+            {
+                "id": "270",
+                "text": "漯河市",
+                "letter": "L",
+                "domain": "luohe"
+            },
+            {
+                "id": "273",
+                "text": "商丘市",
+                "letter": "S",
+                "domain": "shangqiu"
+            },
+            {
+                "id": "271",
+                "text": "三门峡市",
+                "letter": "S",
+                "domain": "sanmenxia"
+            },
+            {
+                "id": "279",
+                "text": "济源市",
+                "letter": "J",
+                "domain": "jiyuan"
+            },
+            {
+                "id": "290",
+                "text": "新郑市",
+                "letter": "X",
+                "domain": "xinzheng"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "letter": "H",
+        "text": "河北省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "6",
+                "text": "石家庄市",
+                "letter": "S",
+                "domain": "shijiazhuang"
+            },
+            {
+                "id": "679",
+                "text": "辛集市",
+                "letter": "X",
+                "domain": "xinji"
+            },
+            {
+                "id": "678",
+                "text": "定州市",
+                "letter": "D",
+                "domain": "dingzhou"
+            },
+            {
+                "id": "7",
+                "text": "唐山市",
+                "letter": "T",
+                "domain": "tangshan"
+            },
+            {
+                "id": "10",
+                "text": "保定市",
+                "letter": "B",
+                "domain": "baoding"
+            },
+            {
+                "id": "8",
+                "text": "邯郸市",
+                "letter": "H",
+                "domain": "handan"
+            },
+            {
+                "id": "14",
+                "text": "沧州市",
+                "letter": "C",
+                "domain": "cangzhou"
+            },
+            {
+                "id": "9",
+                "text": "邢台市",
+                "letter": "X",
+                "domain": "xingtai"
+            },
+            {
+                "id": "15",
+                "text": "廊坊市",
+                "letter": "L",
+                "domain": "langfang"
+            },
+            {
+                "id": "13",
+                "text": "秦皇岛市",
+                "letter": "Q",
+                "domain": "qinhuangdao"
+            },
+            {
+                "id": "11",
+                "text": "张家口市",
+                "letter": "Z",
+                "domain": "zhangjiakou"
+            },
+            {
+                "id": "16",
+                "text": "衡水市",
+                "letter": "H",
+                "domain": "hengshui"
+            },
+            {
+                "id": "12",
+                "text": "承德市",
+                "letter": "C",
+                "domain": "chengde"
+            }
+        ]
+    },
+    {
+        "id": "23",
+        "letter": "S",
+        "text": "山东省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "225",
+                "text": "济南市",
+                "letter": "J",
+                "domain": "jinan"
+            },
+            {
+                "id": "226",
+                "text": "青岛市",
+                "letter": "Q",
+                "domain": "qingdao"
+            },
+            {
+                "id": "231",
+                "text": "烟台市",
+                "letter": "Y",
+                "domain": "yantai"
+            },
+            {
+                "id": "234",
+                "text": "威海市",
+                "letter": "W",
+                "domain": "weihai"
+            },
+            {
+                "id": "230",
+                "text": "潍坊市",
+                "letter": "W",
+                "domain": "weifang"
+            },
+            {
+                "id": "233",
+                "text": "泰安市",
+                "letter": "T",
+                "domain": "taian"
+            },
+            {
+                "id": "227",
+                "text": "淄博市",
+                "letter": "Z",
+                "domain": "zibo"
+            },
+            {
+                "id": "229",
+                "text": "东营市",
+                "letter": "D",
+                "domain": "dongying"
+            },
+            {
+                "id": "568",
+                "text": "临沂市",
+                "letter": "L",
+                "domain": "linyi"
+            },
+            {
+                "id": "232",
+                "text": "济宁市",
+                "letter": "J",
+                "domain": "jining"
+            },
+            {
+                "id": "238",
+                "text": "滨州市",
+                "letter": "B",
+                "domain": "binzhou"
+            },
+            {
+                "id": "580",
+                "text": "德州市",
+                "letter": "D",
+                "domain": "dezhou"
+            },
+            {
+                "id": "240",
+                "text": "菏泽市",
+                "letter": "H",
+                "domain": "heze"
+            },
+            {
+                "id": "228",
+                "text": "枣庄市",
+                "letter": "Z",
+                "domain": "zaozhuang"
+            },
+            {
+                "id": "237",
+                "text": "聊城市",
+                "letter": "L",
+                "domain": "liaocheng"
+            },
+            {
+                "id": "236",
+                "text": "莱芜市",
+                "letter": "L",
+                "domain": "laiwu"
+            },
+            {
+                "id": "235",
+                "text": "日照市",
+                "letter": "R",
+                "domain": "rizhao"
+            }
+        ]
+    },
+    {
+        "id": "15",
+        "letter": "X",
+        "text": "西藏省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "432",
+                "text": "拉萨市",
+                "letter": "L",
+                "domain": "lasa"
+            },
+            {
+                "id": "607",
+                "text": "昌都市",
+                "letter": "C",
+                "domain": "changdu"
+            },
+            {
+                "id": "608",
+                "text": "山南市",
+                "letter": "S",
+                "domain": "shannan"
+            },
+            {
+                "id": "609",
+                "text": "日喀则市",
+                "letter": "R",
+                "domain": "rikaze"
+            },
+            {
+                "id": "610",
+                "text": "那曲市",
+                "letter": "N",
+                "domain": "naqu"
+            },
+            {
+                "id": "611",
+                "text": "阿里市",
+                "letter": "A",
+                "domain": "ali"
+            },
+            {
+                "id": "612",
+                "text": "林芝市",
+                "letter": "L",
+                "domain": "linzhi"
+            }
+        ]
+    },
+    {
+        "id": "17",
+        "letter": "S",
+        "text": "四川省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "386",
+                "text": "成都市",
+                "letter": "C",
+                "domain": "chengdu"
+            },
+            {
+                "id": "404",
+                "text": "广汉市",
+                "letter": "G",
+                "domain": "guanghan"
+            },
+            {
+                "id": "622",
+                "text": "阿坝市",
+                "letter": "A",
+                "domain": "aba"
+            },
+            {
+                "id": "623",
+                "text": "甘孜市",
+                "letter": "G",
+                "domain": "ganzi"
+            },
+            {
+                "id": "388",
+                "text": "攀枝花市",
+                "letter": "P",
+                "domain": "panzhihua"
+            },
+            {
+                "id": "389",
+                "text": "德阳市",
+                "letter": "D",
+                "domain": "deyang"
+            },
+            {
+                "id": "391",
+                "text": "绵阳市",
+                "letter": "M",
+                "domain": "mianyang"
+            },
+            {
+                "id": "390",
+                "text": "泸州市",
+                "letter": "L",
+                "domain": "luzhou"
+            },
+            {
+                "id": "396",
+                "text": "南充市",
+                "letter": "N",
+                "domain": "nanchong"
+            },
+            {
+                "id": "393",
+                "text": "广元市",
+                "letter": "G",
+                "domain": "guangyuan"
+            },
+            {
+                "id": "394",
+                "text": "遂宁市",
+                "letter": "S",
+                "domain": "suining"
+            },
+            {
+                "id": "392",
+                "text": "内江市",
+                "letter": "N",
+                "domain": "neijiang"
+            },
+            {
+                "id": "395",
+                "text": "乐山市",
+                "letter": "L",
+                "domain": "leshan"
+            },
+            {
+                "id": "387",
+                "text": "自贡市",
+                "letter": "Z",
+                "domain": "zigong"
+            },
+            {
+                "id": "397",
+                "text": "宜宾市",
+                "letter": "Y",
+                "domain": "yibin"
+            },
+            {
+                "id": "399",
+                "text": "达州市",
+                "letter": "D",
+                "domain": "dazhou"
+            },
+            {
+                "id": "621",
+                "text": "眉山市",
+                "letter": "M",
+                "domain": "meishan"
+            },
+            {
+                "id": "402",
+                "text": "雅安市",
+                "letter": "Y",
+                "domain": "yaan"
+            },
+            {
+                "id": "398",
+                "text": "广安市",
+                "letter": "G",
+                "domain": "guangan"
+            },
+            {
+                "id": "410",
+                "text": "巴中市",
+                "letter": "B",
+                "domain": "bazhong"
+            },
+            {
+                "id": "409",
+                "text": "资阳市",
+                "letter": "Z",
+                "domain": "ziyang"
+            },
+            {
+                "id": "620",
+                "text": "凉山市",
+                "letter": "L",
+                "domain": "liangshan"
+            }
+        ]
+    },
+    {
+        "id": "16",
+        "letter": "Q",
+        "text": "青海省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "456",
+                "text": "西宁市",
+                "letter": "X",
+                "domain": "xining"
+            },
+            {
+                "id": "613",
+                "text": "海东市",
+                "letter": "H",
+                "domain": "haidong"
+            },
+            {
+                "id": "614",
+                "text": "海南市",
+                "letter": "H",
+                "domain": "hainan"
+            },
+            {
+                "id": "616",
+                "text": "海北市",
+                "letter": "H",
+                "domain": "haibei"
+            },
+            {
+                "id": "618",
+                "text": "玉树市",
+                "letter": "Y",
+                "domain": "yushu"
+            },
+            {
+                "id": "615",
+                "text": "海西市",
+                "letter": "H",
+                "domain": "haixi"
+            },
+            {
+                "id": "617",
+                "text": "黄南市",
+                "letter": "H",
+                "domain": "huangnan"
+            },
+            {
+                "id": "619",
+                "text": "果洛市",
+                "letter": "G",
+                "domain": "guoluo"
+            }
+        ]
+    },
+    {
+        "id": "20",
+        "letter": "H",
+        "text": "湖南省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "326",
+                "text": "长沙市",
+                "letter": "C",
+                "domain": "changsha"
+            },
+            {
+                "id": "333",
+                "text": "张家界市",
+                "letter": "Z",
+                "domain": "zhangjiajie"
+            },
+            {
+                "id": "327",
+                "text": "株洲市",
+                "letter": "Z",
+                "domain": "zhuzhou"
+            },
+            {
+                "id": "329",
+                "text": "衡阳市",
+                "letter": "H",
+                "domain": "hengyang"
+            },
+            {
+                "id": "332",
+                "text": "常德市",
+                "letter": "C",
+                "domain": "changde"
+            },
+            {
+                "id": "335",
+                "text": "益阳市",
+                "letter": "Y",
+                "domain": "yiyang"
+            },
+            {
+                "id": "331",
+                "text": "岳阳市",
+                "letter": "Y",
+                "domain": "yueyang"
+            },
+            {
+                "id": "328",
+                "text": "湘潭市",
+                "letter": "X",
+                "domain": "xiangtan"
+            },
+            {
+                "id": "334",
+                "text": "郴州市",
+                "letter": "C",
+                "domain": "chenzhou"
+            },
+            {
+                "id": "336",
+                "text": "永州市",
+                "letter": "Y",
+                "domain": "yongzhou"
+            },
+            {
+                "id": "330",
+                "text": "邵阳市",
+                "letter": "S",
+                "domain": "shaoyang"
+            },
+            {
+                "id": "337",
+                "text": "怀化市",
+                "letter": "H",
+                "domain": "huaihua"
+            },
+            {
+                "id": "338",
+                "text": "娄底市",
+                "letter": "L",
+                "domain": "loudi"
+            },
+            {
+                "id": "672",
+                "text": "湘西市",
+                "letter": "X",
+                "domain": "xiangxi"
+            }
+        ]
+    },
+    {
+        "id": "21",
+        "letter": "H",
+        "text": "湖北省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "291",
+                "text": "武汉市",
+                "letter": "W",
+                "domain": "wuhan"
+            },
+            {
+                "id": "306",
+                "text": "麻城市",
+                "letter": "M",
+                "domain": "macheng"
+            },
+            {
+                "id": "316",
+                "text": "枣阳市",
+                "letter": "Z",
+                "domain": "zaoyang"
+            },
+            {
+                "id": "638",
+                "text": "神农架市",
+                "letter": "S",
+                "domain": "shennongjia"
+            },
+            {
+                "id": "292",
+                "text": "黄石市",
+                "letter": "H",
+                "domain": "huangshi"
+            },
+            {
+                "id": "293",
+                "text": "十堰市",
+                "letter": "S",
+                "domain": "shiyan"
+            },
+            {
+                "id": "295",
+                "text": "荆州市",
+                "letter": "J",
+                "domain": "jingzhou"
+            },
+            {
+                "id": "294",
+                "text": "宜昌市",
+                "letter": "Y",
+                "domain": "yichang"
+            },
+            {
+                "id": "296",
+                "text": "襄阳市",
+                "letter": "X",
+                "domain": "xiangyang"
+            },
+            {
+                "id": "300",
+                "text": "黄冈市",
+                "letter": "H",
+                "domain": "huanggang"
+            },
+            {
+                "id": "299",
+                "text": "孝感市",
+                "letter": "X",
+                "domain": "xiaogan"
+            },
+            {
+                "id": "302",
+                "text": "随州市",
+                "letter": "S",
+                "domain": "suizhou"
+            },
+            {
+                "id": "297",
+                "text": "荆门市",
+                "letter": "J",
+                "domain": "jingmen"
+            },
+            {
+                "id": "323",
+                "text": "恩施市",
+                "letter": "E",
+                "domain": "enshi"
+            },
+            {
+                "id": "298",
+                "text": "鄂州市",
+                "letter": "E",
+                "domain": "ezhou"
+            },
+            {
+                "id": "301",
+                "text": "咸宁市",
+                "letter": "X",
+                "domain": "xianning"
+            },
+            {
+                "id": "308",
+                "text": "仙桃市",
+                "letter": "X",
+                "domain": "xiantao"
+            },
+            {
+                "id": "318",
+                "text": "潜江市",
+                "letter": "Q",
+                "domain": "qianjiang"
+            },
+            {
+                "id": "312",
+                "text": "天门市",
+                "letter": "T",
+                "domain": "tianmen"
+            }
+        ]
+    },
+    {
+        "id": "32",
+        "letter": "J",
+        "text": "江西省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "209",
+                "text": "南昌市",
+                "letter": "N",
+                "domain": "nanchang"
+            },
+            {
+                "id": "212",
+                "text": "九江市",
+                "letter": "J",
+                "domain": "jiujiang"
+            },
+            {
+                "id": "216",
+                "text": "上饶市",
+                "letter": "S",
+                "domain": "shangrao"
+            },
+            {
+                "id": "215",
+                "text": "赣州市",
+                "letter": "G",
+                "domain": "ganzhou"
+            },
+            {
+                "id": "217",
+                "text": "宜春市",
+                "letter": "Y",
+                "domain": "yichun"
+            },
+            {
+                "id": "219",
+                "text": "吉安市",
+                "letter": "J",
+                "domain": "jian"
+            },
+            {
+                "id": "211",
+                "text": "萍乡市",
+                "letter": "P",
+                "domain": "pingxiang"
+            },
+            {
+                "id": "210",
+                "text": "景德镇市",
+                "letter": "J",
+                "domain": "jingdezhen"
+            },
+            {
+                "id": "653",
+                "text": "抚州市",
+                "letter": "F",
+                "domain": "jxfuzhou"
+            },
+            {
+                "id": "214",
+                "text": "鹰潭市",
+                "letter": "Y",
+                "domain": "yingtan"
+            },
+            {
+                "id": "213",
+                "text": "新余市",
+                "letter": "X",
+                "domain": "xinyu"
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "letter": "A",
+        "text": "安徽省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "181",
+                "text": "合肥市",
+                "letter": "H",
+                "domain": "hefei"
+            },
+            {
+                "id": "188",
+                "text": "安庆市",
+                "letter": "A",
+                "domain": "anqing"
+            },
+            {
+                "id": "186",
+                "text": "蚌埠市",
+                "letter": "B",
+                "domain": "bengbu"
+            },
+            {
+                "id": "192",
+                "text": "巢湖市",
+                "letter": "C",
+                "domain": "chaohu"
+            },
+            {
+                "id": "582",
+                "text": "阜阳市",
+                "letter": "F",
+                "domain": "fuyang"
+            },
+            {
+                "id": "193",
+                "text": "六安市",
+                "letter": "L",
+                "domain": "luan"
+            },
+            {
+                "id": "185",
+                "text": "铜陵市",
+                "letter": "T",
+                "domain": "tongling"
+            },
+            {
+                "id": "187",
+                "text": "马鞍山市",
+                "letter": "M",
+                "domain": "maanshan"
+            },
+            {
+                "id": "194",
+                "text": "亳州市",
+                "letter": "B",
+                "domain": "bozhou"
+            },
+            {
+                "id": "191",
+                "text": "宿州市",
+                "letter": "S",
+                "domain": "ahsuzhou"
+            },
+            {
+                "id": "639",
+                "text": "池州市",
+                "letter": "C",
+                "domain": "chizhou"
+            },
+            {
+                "id": "183",
+                "text": "淮北市",
+                "letter": "H",
+                "domain": "huaibei"
+            },
+            {
+                "id": "182",
+                "text": "淮南市",
+                "letter": "H",
+                "domain": "huainan"
+            },
+            {
+                "id": "184",
+                "text": "芜湖市",
+                "letter": "W",
+                "domain": "wuhu"
+            },
+            {
+                "id": "640",
+                "text": "宣城市",
+                "letter": "X",
+                "domain": "xuancheng"
+            },
+            {
+                "id": "189",
+                "text": "黄山市",
+                "letter": "H",
+                "domain": "huangshan"
+            },
+            {
+                "id": "190",
+                "text": "滁州市",
+                "letter": "C",
+                "domain": "chuzhou"
+            }
+        ]
+    },
+    {
+        "id": "25",
+        "letter": "J",
+        "text": "江苏省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "123",
+                "text": "南京市",
+                "letter": "N",
+                "domain": "nanjing"
+            },
+            {
+                "id": "133",
+                "text": "苏州市",
+                "letter": "S",
+                "domain": "suzhou"
+            },
+            {
+                "id": "132",
+                "text": "无锡市",
+                "letter": "W",
+                "domain": "wuxi"
+            },
+            {
+                "id": "131",
+                "text": "常州市",
+                "letter": "C",
+                "domain": "changzhou"
+            },
+            {
+                "id": "124",
+                "text": "徐州市",
+                "letter": "X",
+                "domain": "xuzhou"
+            },
+            {
+                "id": "140",
+                "text": "淮安市",
+                "letter": "H",
+                "domain": "huaian"
+            },
+            {
+                "id": "125",
+                "text": "连云港市",
+                "letter": "L",
+                "domain": "lianyungang"
+            },
+            {
+                "id": "129",
+                "text": "南通市",
+                "letter": "N",
+                "domain": "nantong"
+            },
+            {
+                "id": "127",
+                "text": "盐城市",
+                "letter": "Y",
+                "domain": "yancheng"
+            },
+            {
+                "id": "128",
+                "text": "扬州市",
+                "letter": "Y",
+                "domain": "yangzhou"
+            },
+            {
+                "id": "130",
+                "text": "镇江市",
+                "letter": "Z",
+                "domain": "zhenjiang"
+            },
+            {
+                "id": "642",
+                "text": "泰州市",
+                "letter": "T",
+                "domain": "taizhou"
+            },
+            {
+                "id": "643",
+                "text": "宿迁市",
+                "letter": "S",
+                "domain": "suqian"
+            }
+        ]
+    },
+    {
+        "id": "26",
+        "letter": "Z",
+        "text": "浙江省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "153",
+                "text": "杭州市",
+                "letter": "H",
+                "domain": "hangzhou"
+            },
+            {
+                "id": "154",
+                "text": "宁波市",
+                "letter": "N",
+                "domain": "ningbo"
+            },
+            {
+                "id": "155",
+                "text": "温州市",
+                "letter": "W",
+                "domain": "wenzhou"
+            },
+            {
+                "id": "156",
+                "text": "嘉兴市",
+                "letter": "J",
+                "domain": "jiaxing"
+            },
+            {
+                "id": "157",
+                "text": "湖州市",
+                "letter": "H",
+                "domain": "huzhou"
+            },
+            {
+                "id": "158",
+                "text": "绍兴市",
+                "letter": "S",
+                "domain": "shaoxing"
+            },
+            {
+                "id": "159",
+                "text": "金华市",
+                "letter": "J",
+                "domain": "jinhua"
+            },
+            {
+                "id": "160",
+                "text": "衢州市",
+                "letter": "Q",
+                "domain": "quzhou"
+            },
+            {
+                "id": "179",
+                "text": "台州市",
+                "letter": "T",
+                "domain": "zjtaizhou"
+            },
+            {
+                "id": "174",
+                "text": "丽水市",
+                "letter": "L",
+                "domain": "lishui"
+            },
+            {
+                "id": "161",
+                "text": "舟山市",
+                "letter": "Z",
+                "domain": "zhoushan"
+            }
+        ]
+    },
+    {
+        "id": "33",
+        "letter": "F",
+        "text": "福建省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "198",
+                "text": "福州市",
+                "letter": "F",
+                "domain": "fuzhou"
+            },
+            {
+                "id": "199",
+                "text": "厦门市",
+                "letter": "X",
+                "domain": "xiamen"
+            },
+            {
+                "id": "202",
+                "text": "泉州市",
+                "letter": "Q",
+                "domain": "quanzhou"
+            },
+            {
+                "id": "654",
+                "text": "龙岩市",
+                "letter": "L",
+                "domain": "longyan"
+            },
+            {
+                "id": "203",
+                "text": "漳州市",
+                "letter": "Z",
+                "domain": "zhangzhou"
+            },
+            {
+                "id": "200",
+                "text": "三明市",
+                "letter": "S",
+                "domain": "sanming"
+            },
+            {
+                "id": "207",
+                "text": "宁德市",
+                "letter": "N",
+                "domain": "ningde"
+            },
+            {
+                "id": "201",
+                "text": "莆田市",
+                "letter": "P",
+                "domain": "putian"
+            },
+            {
+                "id": "204",
+                "text": "南平市",
+                "letter": "N",
+                "domain": "nanping"
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "letter": "Y",
+        "text": "云南省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "420",
+                "text": "昆明市",
+                "letter": "K",
+                "domain": "kunming"
+            },
+            {
+                "id": "624",
+                "text": "迪庆市",
+                "letter": "D",
+                "domain": "diqing"
+            },
+            {
+                "id": "626",
+                "text": "德宏市",
+                "letter": "D",
+                "domain": "dehong"
+            },
+            {
+                "id": "421",
+                "text": "曲靖市",
+                "letter": "Q",
+                "domain": "qujing"
+            },
+            {
+                "id": "422",
+                "text": "玉溪市",
+                "letter": "Y",
+                "domain": "yuxi"
+            },
+            {
+                "id": "423",
+                "text": "昭通市",
+                "letter": "Z",
+                "domain": "shaotong"
+            },
+            {
+                "id": "427",
+                "text": "大理市",
+                "letter": "D",
+                "domain": "dali"
+            },
+            {
+                "id": "632",
+                "text": "丽江市",
+                "letter": "L",
+                "domain": "lijiang"
+            },
+            {
+                "id": "630",
+                "text": "临沧市",
+                "letter": "L",
+                "domain": "lincang"
+            },
+            {
+                "id": "428",
+                "text": "保山市",
+                "letter": "B",
+                "domain": "baoshan"
+            },
+            {
+                "id": "628",
+                "text": "普洱市",
+                "letter": "P",
+                "domain": "puer"
+            },
+            {
+                "id": "625",
+                "text": "红河市",
+                "letter": "H",
+                "domain": "honghe"
+            },
+            {
+                "id": "424",
+                "text": "楚雄市",
+                "letter": "C",
+                "domain": "chuxiong"
+            },
+            {
+                "id": "670",
+                "text": "开远市",
+                "letter": "K",
+                "domain": "kaiyuan"
+            },
+            {
+                "id": "631",
+                "text": "文山市",
+                "letter": "W",
+                "domain": "wenshan"
+            },
+            {
+                "id": "627",
+                "text": "西双版纳市",
+                "letter": "X",
+                "domain": "xishuangbanna"
+            },
+            {
+                "id": "629",
+                "text": "怒江市",
+                "letter": "N",
+                "domain": "nujiang"
+            }
+        ]
+    },
+    {
+        "id": "19",
+        "letter": "G",
+        "text": "贵州省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "414",
+                "text": "贵阳市",
+                "letter": "G",
+                "domain": "guiyang"
+            },
+            {
+                "id": "416",
+                "text": "遵义市",
+                "letter": "Z",
+                "domain": "zunyi"
+            },
+            {
+                "id": "415",
+                "text": "六盘水市",
+                "letter": "L",
+                "domain": "liupanshui"
+            },
+            {
+                "id": "635",
+                "text": "黔南市",
+                "letter": "Q",
+                "domain": "qiannan"
+            },
+            {
+                "id": "633",
+                "text": "铜仁市",
+                "letter": "T",
+                "domain": "tongren"
+            },
+            {
+                "id": "634",
+                "text": "黔东南市",
+                "letter": "Q",
+                "domain": "qiandongnan"
+            },
+            {
+                "id": "417",
+                "text": "安顺市",
+                "letter": "A",
+                "domain": "anshun"
+            },
+            {
+                "id": "637",
+                "text": "毕节市",
+                "letter": "B",
+                "domain": "bijie"
+            },
+            {
+                "id": "636",
+                "text": "黔西南市",
+                "letter": "Q",
+                "domain": "qianxinan"
+            }
+        ]
+    },
+    {
+        "id": "31",
+        "letter": "G",
+        "text": "广西省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "367",
+                "text": "南宁市",
+                "letter": "N",
+                "domain": "nanning"
+            },
+            {
+                "id": "541",
+                "text": "来宾市",
+                "letter": "L",
+                "domain": "laibin"
+            },
+            {
+                "id": "368",
+                "text": "柳州市",
+                "letter": "L",
+                "domain": "liuzhou"
+            },
+            {
+                "id": "369",
+                "text": "桂林市",
+                "letter": "G",
+                "domain": "guilin"
+            },
+            {
+                "id": "375",
+                "text": "玉林市",
+                "letter": "Y",
+                "domain": "gxyulin"
+            },
+            {
+                "id": "371",
+                "text": "北海市",
+                "letter": "B",
+                "domain": "beihai"
+            },
+            {
+                "id": "650",
+                "text": "百色市",
+                "letter": "B",
+                "domain": "baise"
+            },
+            {
+                "id": "651",
+                "text": "贺州市",
+                "letter": "H",
+                "domain": "hezhou"
+            },
+            {
+                "id": "370",
+                "text": "梧州市",
+                "letter": "W",
+                "domain": "wuzhou"
+            },
+            {
+                "id": "374",
+                "text": "贵港市",
+                "letter": "G",
+                "domain": "guigang"
+            },
+            {
+                "id": "373",
+                "text": "钦州市",
+                "letter": "Q",
+                "domain": "qinzhou"
+            },
+            {
+                "id": "378",
+                "text": "河池市",
+                "letter": "H",
+                "domain": "hechi"
+            },
+            {
+                "id": "652",
+                "text": "崇左市",
+                "letter": "C",
+                "domain": "chongzuo"
+            },
+            {
+                "id": "372",
+                "text": "防城港市",
+                "letter": "F",
+                "domain": "fangchenggang"
+            }
+        ]
+    },
+    {
+        "id": "30",
+        "letter": "G",
+        "text": "广东省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "347",
+                "text": "广州市",
+                "letter": "G",
+                "domain": "gz"
+            },
+            {
+                "id": "348",
+                "text": "深圳市",
+                "letter": "S",
+                "domain": "sz"
+            },
+            {
+                "id": "349",
+                "text": "珠海市",
+                "letter": "Z",
+                "domain": "zhuhai"
+            },
+            {
+                "id": "355",
+                "text": "中山市",
+                "letter": "Z",
+                "domain": "zhongshan"
+            },
+            {
+                "id": "352",
+                "text": "惠州市",
+                "letter": "H",
+                "domain": "huizhou"
+            },
+            {
+                "id": "354",
+                "text": "东莞市",
+                "letter": "D",
+                "domain": "dongguan"
+            },
+            {
+                "id": "357",
+                "text": "佛山市",
+                "letter": "F",
+                "domain": "foshan"
+            },
+            {
+                "id": "350",
+                "text": "汕头市",
+                "letter": "S",
+                "domain": "shantou"
+            },
+            {
+                "id": "356",
+                "text": "江门市",
+                "letter": "J",
+                "domain": "jiangmen"
+            },
+            {
+                "id": "351",
+                "text": "韶关市",
+                "letter": "S",
+                "domain": "shaoguan"
+            },
+            {
+                "id": "648",
+                "text": "揭阳市",
+                "letter": "J",
+                "domain": "jieyang"
+            },
+            {
+                "id": "514",
+                "text": "肇庆市",
+                "letter": "Z",
+                "domain": "zhaoqing"
+            },
+            {
+                "id": "358",
+                "text": "阳江市",
+                "letter": "Y",
+                "domain": "yangjiang"
+            },
+            {
+                "id": "646",
+                "text": "清远市",
+                "letter": "Q",
+                "domain": "qingyuan"
+            },
+            {
+                "id": "645",
+                "text": "河源市",
+                "letter": "H",
+                "domain": "heyuan"
+            },
+            {
+                "id": "360",
+                "text": "茂名市",
+                "letter": "M",
+                "domain": "maoming"
+            },
+            {
+                "id": "649",
+                "text": "潮州市",
+                "letter": "C",
+                "domain": "chaozhou"
+            },
+            {
+                "id": "359",
+                "text": "湛江市",
+                "letter": "Z",
+                "domain": "zhanjiang"
+            },
+            {
+                "id": "644",
+                "text": "梅州市",
+                "letter": "M",
+                "domain": "meizhou"
+            },
+            {
+                "id": "647",
+                "text": "云浮市",
+                "letter": "Y",
+                "domain": "yunfu"
+            },
+            {
+                "id": "353",
+                "text": "汕尾市",
+                "letter": "S",
+                "domain": "shanwei"
+            }
+        ]
+    },
+    {
+        "id": "34",
+        "letter": "H",
+        "text": "海南省",
+        "state": "closed",
+        "children": [
+            {
+                "id": "380",
+                "text": "海口市",
+                "letter": "H",
+                "domain": "haikou"
+            },
+            {
+                "id": "382",
+                "text": "五指山市",
+                "letter": "W",
+                "domain": "wuzhishan"
+            },
+            {
+                "id": "384",
+                "text": "儋州市",
+                "letter": "Z",
+                "domain": "zhou"
+            },
+            {
+                "id": "656",
+                "text": "万宁市",
+                "letter": "W",
+                "domain": "wanning"
+            },
+            {
+                "id": "657",
+                "text": "东方市",
+                "letter": "D",
+                "domain": "dongfang"
+            },
+            {
+                "id": "658",
+                "text": "定安市",
+                "letter": "D",
+                "domain": "dingan"
+            },
+            {
+                "id": "659",
+                "text": "屯昌市",
+                "letter": "T",
+                "domain": "tunchang"
+            },
+            {
+                "id": "660",
+                "text": "澄迈市",
+                "letter": "C",
+                "domain": "chengmai"
+            },
+            {
+                "id": "661",
+                "text": "琼中市",
+                "letter": "Q",
+                "domain": "qiongzhong"
+            },
+            {
+                "id": "662",
+                "text": "西沙市",
+                "letter": "X",
+                "domain": "xisha"
+            },
+            {
+                "id": "663",
+                "text": "南沙市",
+                "letter": "N",
+                "domain": "nansha"
+            },
+            {
+                "id": "664",
+                "text": "中沙市",
+                "letter": "Z",
+                "domain": "zhongsha"
+            },
+            {
+                "id": "665",
+                "text": "临高市",
+                "letter": "L",
+                "domain": "lingao"
+            },
+            {
+                "id": "666",
+                "text": "白沙市",
+                "letter": "B",
+                "domain": "baisha"
+            },
+            {
+                "id": "667",
+                "text": "乐东市",
+                "letter": "L",
+                "domain": "ledong"
+            },
+            {
+                "id": "668",
+                "text": "陵水市",
+                "letter": "L",
+                "domain": "lingshui"
+            },
+            {
+                "id": "669",
+                "text": "保亭市",
+                "letter": "B",
+                "domain": "baoting"
+            },
+            {
+                "id": "688",
+                "text": "昌江县",
+                "letter": "C",
+                "domain": "changjiang"
+            },
+            {
+                "id": "381",
+                "text": "三亚市",
+                "letter": "S",
+                "domain": "sanya"
+            },
+            {
+                "id": "383",
+                "text": "琼海市",
+                "letter": "Q",
+                "domain": "qionghai"
+            },
+            {
+                "id": "655",
+                "text": "文昌市",
+                "letter": "W",
+                "domain": "wenchang"
+            }
+        ]
+    }
+]

@@ -1,0 +1,52 @@
+{
+    "status": 1,
+    "result": {
+        "list": [
+            {
+                "city_id": "475",
+                "area_city": "",
+                "premission": "5",
+                "area": "0",
+                "coaname": "奥之旅奥迪中心",
+                "address": "北京市房山区京港澳高速阎村出口京周路方向澎湃汽车城内",
+                "did": "57417"
+            },
+            {
+                "area_city": "",
+                "city_id": "475",
+                "did": "36572",
+                "area": "0",
+                "premission": "5",
+                "coaname": "北京德奥达汽车销售有限公司",
+                "address": "朝阳区北四环东路太阳宫十字口甲1号"
+            },
+            {
+                "city_id": "475",
+                "area_city": "",
+                "premission": "5",
+                "area": "0",
+                "coaname": "北京永定门奥迪中心",
+                "address": "北京市崇文区南二环永定门桥向东500米",
+                "did": "107232"
+            },
+            {
+                "area_city": "",
+                "city_id": "475",
+                "did": "32602",
+                "area": "0",
+                "premission": "5",
+                "coaname": "北京国服信奥兴汽车",
+                "address": "北京市石景山区古城大街国际汽车贸易服务园区F区9号"
+            },
+            {
+                "city_id": "475",
+                "area_city": "",
+                "premission": "5",
+                "area": "0",
+                "coaname": "北京寰宇恒通奥迪4S店",
+                "address": "北京市海淀区闵庄路11号",
+                "did": "5622"
+            }
+        ]
+    }
+}
